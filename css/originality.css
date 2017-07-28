@@ -1,0 +1,58 @@
+.navbar-default {
+  margin-bottom: 0px;
+}
+
+div.whole {
+  background: url(../images/header-bg.jpg) center top no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+div.paragraph {
+  background-color: #fff;
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.cre {
+  font-family: "Arial black", "宋体", "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 90px;
+  line-height: 1;
+  padding: 70px 60px 25px 60px;
+  margin-bottom: 0px;
+}
+
+.arrow {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+a.scrollto {
+  font-size: 80px;
+  line-height: 0.5;
+  text-align: center;
+  color: #2F2E4F;
+}
+
+#services {
+  padding: 120px 0 100px 0;
+}
+
+.title h4 {
+  font-family: "Microsoft YaHei", "宋体", "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-indent: 6px;
+  color: #2f2e2e;
+}
+
+.title div {
+  height: 3px;
+  width: 40px;
+  background-color: #f7931d;
+  margin: 20px auto 35px auto;
+}
