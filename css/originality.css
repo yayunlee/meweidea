@@ -87,10 +87,19 @@ a.scrollto {
 }
 
 
+/*
 .masonry-wrapper {
   padding: 0px;
 }
 
 #projects-container {
   margin: 0 auto;
+}
+*/
+.advertisement {
+  padding: 5px;
+}
+
+.picture {
+  width: 100%;
 }
