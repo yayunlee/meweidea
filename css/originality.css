@@ -136,8 +136,12 @@ a.scrollto {
   line-height: 1.6;
 }
 
-#portfolio .container {
-  max-width: 1170px;
+.shelf {
+  width: 96%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .advertisement {
