@@ -336,4 +336,103 @@ footer {
     max-width: 300px;
   }
 
+  #about {
+    padding: 95px 0px 90px 0px;
+  }
+
+  #about .logo {
+    margin-top: 50px;
+  }
+
+  #about .logo h1 {
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  #about .logo h1 span {
+    display: inline;
+  }
+
+  #about .logo h4 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  #about .addr {
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #about .slogon {
+    margin-top: 20px;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  #about .slogon p {
+    margin: 20px;
+  }
+
+  #about .city {
+    text-align: center;
+  }
+
+  #about .city img {
+    margin: 20px 0 0;
+    width: 65%;
+  }
+
+  #contact {
+    background: url(../images/slide2.jpg) center top no-repeat;
+  }
+
+  #contact .dark-bg {
+    padding: 70px 0 90px 0;
+  }
+
+  #contact .clients {
+    padding: 0;
+  }
+
+  #contact .clients img {
+    width: 100px;
+  }
+
+  #myCarousel {
+    padding: 0 30px;
+  }
+
+  #contact .container-icon {
+    margin-top: 0px;
+    font-size: 36px;
+  }
+
+  #contact .item p {
+    margin: 25px 0px;
+  }
+
+  #contact .contact-btn img {
+    width: 150px;
+    height: 150px;
+  }
+
+  #contact .contact-btn h4 {
+    margin: 15px 20px;
+    font-size: 15px;
+  }
+
+  #contact .contact-btn p {
+    font-size: 15px;
+  }
+
+  footer .container div {
+    text-align: center;
+  }
+
+  footer .container span {
+    display: block;
+  }
 }
