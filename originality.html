@@ -10,6 +10,31 @@
     <link type="text/css" rel="stylesheet" href="css/originality.css">
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+
+        $(".scrollto,.scrollto1").click(function(){
+          $("html,body").animate({scrollTop:$("#services").offset().top},700);
+          return false;
+        });
+
+        $(".scrollto2").click(function(){
+          $("html,body").animate({scrollTop:$("#portfolio").offset().top},700);
+          return false;
+        });
+
+        $(".scrollto3").click(function(){
+          $("html,body").animate({scrollTop:$("#about").offset().top},700);
+          return false;
+        });
+
+        $(".scrollto4").click(function(){
+          $("html,body").animate({scrollTop:$("#wechat").offset().top},700);
+          return false;
+        });
+
+      });
+    </script>
   </head>
   <body>
     <header>
@@ -26,10 +51,10 @@
               </div>
               <div class="collapse navbar-collapse" id="example-navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">服务介绍</a></li>
-                    <li><a href="#">最新案例</a></li>
-                    <li><a href="#">关于我们</a></li>
-                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#services" class="scrollto1">服务介绍</a></li>
+                    <li><a href="#portfolio" class="scrollto2">最新案例</a></li>
+                    <li><a href="#about" class="scrollto3">关于我们</a></li>
+                    <li><a href="#wechat" class="scrollto4">联系我们</a></li>
                 </ul>
               </div>
           </div>
@@ -42,7 +67,7 @@
             ITY.
           </p>
           <div class="arrow">
-            <a href="#" class="scrollto"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <a href="#services" class="scrollto"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
