@@ -60,11 +60,16 @@ div.whole {
   padding-bottom: 300px;
 }
 
-div.paragraph {
+.paragraph {
   background-color: #fff;
   width: 360px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.paragraph:hover [class*=fa]{
+  transform: rotate(360deg);
+  transition: all 0.5s ease-out;
 }
 
 p.cre {
@@ -115,6 +120,11 @@ a.scrollto {
   margin-top: 40px;
   padding: 35px;
   text-align: center;
+}
+
+.service-item:hover [class*=fa]{
+  transform: rotate(360deg);
+  transition: all 0.5s ease-out;
 }
 
 .service-icon {
