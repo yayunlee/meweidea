@@ -275,6 +275,13 @@ footer {
   line-height: 1.6;
 }
 
+.createtime {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: -70px;
+}
+
+
 @media print, screen and (max-width: 767px) {
   header {
     background: url(../images/slide1.jpg) center top no-repeat;
@@ -436,6 +443,10 @@ footer {
 
   #contact .contact-btn p {
     font-size: 15px;
+  }
+
+  .createtime {
+    margin-bottom: -50px;
   }
 
   footer .container div {
